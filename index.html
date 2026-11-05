@@ -276,6 +276,19 @@
 
   .reveal{opacity:0;transform:translateY(20px);transition:opacity .8s ease, transform .8s ease}
   .reveal.in{opacity:1;transform:translateY(0)}
+
+  /* INDUSTRY PRIMER */
+  .primer{padding:6rem 2.4rem;background:var(--bg-2);border-top:1px solid var(--line)}
+  .primer-inner{max-width:900px;margin:0 auto}
+  .primer-text h3{font-family:var(--display);font-size:1.5rem;margin-top:2.5rem;margin-bottom:.8rem;color:var(--ink);letter-spacing:-.01em;text-transform:uppercase}
+  .primer-text h3:first-of-type{margin-top:0}
+  .primer-text p{font-family:var(--jp);font-size:.95rem;line-height:1.85;color:var(--ink-2);margin-bottom:1.2rem}
+  .primer-text p strong{color:var(--ink)}
+  .primer-tags{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0 2rem}
+  .primer-tags li{font-family:var(--mono);font-size:.7rem;background:var(--bg-3);color:var(--ink-2);padding:.4rem .8rem;border-radius:2px;letter-spacing:.05em}
+  .primer-cta{font-family:var(--mono);font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--yellow);text-decoration:none;font-weight:700;border-bottom:1px solid var(--yellow);padding-bottom:.3rem}
+  .primer-cta:hover{color:var(--ink);border-color:var(--ink)}
+  @media(max-width:768px){.primer{padding:4rem 1.2rem}.primer-text h3{font-size:1.3rem}}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7KPHBPVDLW"></script>
@@ -284,6 +297,43 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-7KPHBPVDLW');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://jobs.aaa-ms.com/#organization",
+      "name": "AAA Motor Sports",
+      "url": "https://jobs.aaa-ms.com/",
+      "parentOrganization": {
+        "@type": "SportsOrganization",
+        "name": "AAA Motor Sports",
+        "url": "https://aaa-ms.com/"
+      },
+      "description": "九州・福岡を拠点とするレーシングチーム AAA Motor Sports の採用情報。メカニック・エンジニア・コーチ・運営スタッフを募集。モータースポーツ業界で働きたい方へ。",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "筑紫野市",
+        "addressRegion": "福岡県",
+        "addressCountry": "JP"
+      },
+      "sameAs": [
+        "https://aaa-ms.com/",
+        "https://events.aaa-ms.com/",
+        "https://kidskart.org/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jobs.aaa-ms.com/#website",
+      "url": "https://jobs.aaa-ms.com/",
+      "name": "AAA Motor Sports Careers",
+      "inLanguage": "ja"
+    }
+  ]
+}
 </script>
 </head>
 <body>
@@ -653,6 +703,42 @@
         <summary><span class="q">Q</span><span>すぐ働けますか？</span><span class="icon">+</span></summary>
         <div class="a">はい、<strong>急募</strong>しています。お会いして条件が合えば、最短で来週末から一緒に働けます。研修期間も並行して進められます。</div>
       </details>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRY PRIMER (SEO content) -->
+<section class="primer">
+  <div class="primer-inner">
+    <p class="section-label">08 — Industry primer</p>
+    <h2 class="section-title">カート業界で<span class="em">働くには。</span></h2>
+
+    <div class="primer-text">
+      <h3>レーシングエンジニアになる方法</h3>
+      <p>「モータースポーツの仕事」に就くために、専門学校や大学の自動車・機械系学部を出る必要は<strong>必ずしもありません</strong>。日本のカート業界は、実務経験と情熱を重視する現場です。福岡や九州にはモータースポーツ専門の学校はほぼありませんが、<strong>現場で学ぶのが一番の近道</strong>です。AAAでは、未経験から始めてメカニック・エンジニアとして成長したメンバーがほとんどです。</p>
+
+      <h3>カート業界の仕事とは</h3>
+      <p>一般的に「モータースポーツ業界の仕事」というと、F1 や国内最高峰カテゴリーのレーシングチームを想像しがちです。しかしその入口となるのが<strong>カート業界</strong>。シャシー整備・エンジンセッティング・データ解析・レース戦略・トラックサイドサポート、そしてキッズスクールでのコーチングまで、幅広い役割があります。カートで培った技術と経験は、より上位のカテゴリー（F4、Super Formula、Super GT、欧州レース）への橋渡しになります。</p>
+
+      <h3>九州・福岡でモータースポーツに関わる</h3>
+      <p>関東や関西に出ないとモータースポーツの仕事はできない、と思われがちですが、福岡を拠点に<strong>国内主要シリーズと欧州レースの両方</strong>に参戦しているチームがAAAです。エーワンサーキット（筑紫野市）を本拠地に、九州東西シリーズ、鈴鹿選手権、瑞浪選手権、MAX Festival、FIA Europe / WSK まで、年間26戦以上の現場があります。</p>
+
+      <h3>必要なもの、必要じゃないもの</h3>
+      <p><strong>必要なもの:</strong> カートやモータースポーツへの興味、体を動かすことを厭わない姿勢、学び続ける意欲。<br><strong>必要じゃないもの:</strong> 資格、学歴、カート経験、英語力（海外遠征はありますが、現場で覚えれば大丈夫）、立派な経歴。</p>
+
+      <h3>こんな検索でここに辿り着いた方へ</h3>
+      <p>AAAの採用ページには、以下のような検索でも流入があります。もし近い疑問をお持ちなら、気軽にお問い合わせください。</p>
+      <ul class="primer-tags">
+        <li>レーシングエンジニア 専門学校 福岡</li>
+        <li>モータースポーツ 就職</li>
+        <li>カート業界で働く</li>
+        <li>サーキット 求人</li>
+        <li>レーシングチーム 求人</li>
+        <li>モータースポーツ 習い事</li>
+        <li>レーシングスクール 福岡</li>
+      </ul>
+
+      <p><a href="#apply" class="primer-cta">応募フォームへ →</a></p>
     </div>
   </div>
 </section>
